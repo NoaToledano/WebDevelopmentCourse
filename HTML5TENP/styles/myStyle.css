@@ -1,0 +1,56 @@
+body 
+{
+    direction:rtl;
+}
+
+body {
+background-image: url(../images/background3.jpg)
+}
+
+h1 {
+    color: crimson;
+    font-size: 24pt;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 5px 5px 5px;
+    text-shadow: 1px 1px 1px #FF69D2;
+    -webkit-transition: color 1s linear;
+    -moz-transition: color 1s linear;
+    -ms-transition: color 1s linear;
+    -o-transition: color 1s linear;
+    transition: color 1s linear;
+}
+
+h1:hover {
+    color:lightcoral;
+}
+
+h2 {
+    color: darkmagenta;
+    font-size: 18pt;
+    text-align: center;
+    margin: 10px 5px 5px 5px;
+}
+
+p {
+    font-size: 12pt;
+    text-align: center;
+    color: darkblue;
+    margin: 5px 5px 5px 5px;
+}
+
+#google2 {
+    width: 100px;
+    height: 100px;
+    background-image: url(../images/google.png);
+    background-repeat: no-repeat;
+    margin: 5px 600px 5px 600px;
+}
+
+#facebook2 {
+    width: 100px;
+    height: 100px;
+    background-image: url(../images/facebook.png);
+    background-repeat: no-repeat;
+    margin: 5px 600px 5px 600px;
+}
