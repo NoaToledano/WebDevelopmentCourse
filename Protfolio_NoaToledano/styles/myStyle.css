@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Assistant');
+body {
+    direction: rtl;
+    background-color:mistyrose;
+}
+#container {
+    margin: 0 auto;
+    width: 960px;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    float: right;
+}
+
+    nav ul li a {
+        display: block;
+        background-color: #F67280;
+        font-family: 'Assistant', sans-serif;
+        color: white;
+        width: 130px;
+        height: 50px;
+        padding-top: 10px;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 25px;
+        position: relative;
+        margin: 20px 0px 20px 0px;
+    }
+
+        nav ul li a:hover {
+            background-color: #6C5B7B;
+        }
+
+        nav ul li a:active {
+            background-color: cadetblue;
+        }
+
+#color > a {
+    background-color: lightslategrey;
+    width: 130px;
+    height: 50px;
+    margin: 20px 0px 20px 0px;
+}
+
+h1 {
+    color: #C06C84;
+    font-size: 24pt;
+    text-align: right;
+    font-weight: bold;
+    margin: 50px 5px 20px 5px;
+    -webkit-transition: color 1s linear;
+    -moz-transition: color 1s linear;
+    -ms-transition: color 1s linear;
+    -o-transition: color 1s linear;
+    transition: color 1s linear;
+    clear: both;
+    font-family: 'Assistant', sans-serif;
+}
+
+    h1:hover {
+        color: #F8B195;
+    }
+
+h2 {
+    color: #C06C84;
+    font-size: 20pt;
+    text-align: right;
+    font-weight: bold;
+    margin: 20px 5px 20px 5px;
+    font-family: 'Assistant', sans-serif;
+}
+
+h3 {
+    color: #C06C84;
+    font-size: 18pt;
+    text-align: right;
+    font-weight: bold;
+    margin: 20px 5px 20px 5px;
+    font-family: 'Assistant', sans-serif;
+}
+
+#yt {
+    margin: 20px 5px 20px 5px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-family: 'Assistant', sans-serif;
+}
+
+input[type ='text'], textarea, select {
+    display: block;
+    margin-bottom: 15px;
+}
+
+input[type ='submit'] {
+    margin-top: 10px;
+}
+
+#actili {
+    margin: 10px 5px 10px 5px;
+}
+
+audio {
+    display: block;
+    margin: 5px 5px 5px 5px;
+}
+
+#pgd {
+    margin-bottom: 50px;
+}
+
+#tc, #rr {
+    margin-top: 10px;
+}
+
+p {
+    font-family: 'Assistant', sans-serif;
+}
+#tmop:hover {
+    opacity: 0.7;
+}
+
+#rr:hover {
+    opacity: 0.7;
+}
+
+#tc:hover {
+    opacity: 0.7;
+}
+
+#actili:hover {
+    opacity: 0.7;
+}
+
+#mcoa:hover {
+    opacity: 0.7;
+}
+
+#bf {
+    background-image: url(../images/bf.png);
+    background-repeat: no-repeat;
+    display: block;
+    height: 200px;
+    width: 900px;
+}

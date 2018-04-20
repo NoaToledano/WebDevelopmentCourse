@@ -1,0 +1,75 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>צור קשר עם נועה טולאדנו</title>
+    <meta name="description" content="צור קשר עם נועה טולאדנו" />
+    <meta name="keywords" content="נועה טולאדנו, צור קשר, יצירת, השארת פרטים, תיק עבודות" />
+    <meta name="author" content="נועה טולאדנו" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js"
+            type="text/javascript"></script>
+
+</head>
+<body>
+    <div id="container">
+        <nav>
+            <ul>
+                <li><a href="index.html">אודות</a></li>
+                <li><a href="thandgd.html">תקשורת חזותית + עיצוב גרפי</a></li>
+                <li><a href="gd.html">ActIL  - עיצוב גרפי</a></li>
+                <li><a href="inen.html">סביבות אינטראקטיביות</a></li>
+                <li id="color"><a href="contact.html">צור קשר</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h1>צור קשר</h1>
+            <section>
+                <p>
+                    אתם מוזמנים להשאיר כאן את הפרטים שלכם ואצור אתכם קשר בהקדם
+                </p>
+            </section>
+            <form>
+                <input type="hidden" id="myEmail" name="name" value="netatole@gmail.com">
+                <label for="fn">
+                    שם פרטי:
+                    <input type="text" id="fn" placeholder="הכנס כאן את שמך הפרטי" />
+                </label>
+                <label for="ln">
+                    שם משפחה:
+                    <input type="text" id="ln" placeholder="הכנס כאן את שם המשפחה" />
+                </label>
+                <label for="pelephone">
+                    מספר פלאפון
+                    <input type="text" id="pelephone" placeholder="הכנס כאן את מספר הפלאפון" />
+                </label>
+                <label for="mail">
+                    כתובת מייל
+                    <input type="text" id="mail" placeholder="הכנס כאן את כתובת המייל" />
+                </label>
+                <label for="contact">
+                    אופן יצירת קשר
+                    <select id="contact">
+                        <option value="1">יש ליצור איתי קשר בשעות הבוקר</option>
+                        <option value="2">יש ליצור איתי קשר בשעות הצהריים</option>
+                        <option value="3">יש ליצור איתי קשר בשעות הערב</option>
+                        <option value="4">יש ליצור איתי קשר במייל בלבד</option>
+                    </select>
+                </label>
+                <label>
+                    <input type="submit" id="send" value="צרו איתי קשר!" />
+                </label>
+                <div id="feedback"></div>
+            </form>
+        </article>
+    </div>
+</body>
+</html>
